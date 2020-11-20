@@ -1,6 +1,9 @@
 <?php 
+
 require __DIR__ . "/Source/Support/config.php";
+
 require __DIR__ . "/Source/Support/helpers.php";
+
 session_start();
 
 spl_autoload_register(function ($class) {
